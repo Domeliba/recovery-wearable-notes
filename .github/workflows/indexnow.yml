@@ -1,0 +1,28 @@
+name: Notify IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "it/index.html"
+      - "sitemap.xml"
+      - "robots.txt"
+      - "assets/**"
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify IndexNow about updated pages
+        shell: bash
+        run: |
+          set -euo pipefail
+          KEY="a4d1c9f43b8e4a83a567cb0192e5d7f1"
+          for URL in             "https://recovery-wearable-notes.netlify.app/"             "https://recovery-wearable-notes.netlify.app/it/"; do
+            echo "Submitting $URL"
+            curl -fsS --retry 3 --get "https://api.indexnow.org/indexnow"               --data-urlencode "url=$URL"               --data-urlencode "key=$KEY"               -o /dev/null
+          done
