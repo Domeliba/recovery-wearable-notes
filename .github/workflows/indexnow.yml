@@ -17,6 +17,21 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
+      - name: Wait for Netlify to publish IndexNow key
+        shell: bash
+        run: |
+          set -euo pipefail
+          KEY_URL="https://recovery-wearable-notes.netlify.app/a4d1c9f43b8e4a83a567cb0192e5d7f1.txt"
+          for i in {1..18}; do
+            if curl -fsS "$KEY_URL" | grep -q "a4d1c9f43b8e4a83a567cb0192e5d7f1"; then
+              echo "IndexNow key is live."
+              exit 0
+            fi
+            echo "Waiting for Netlify deploy..."
+            sleep 10
+          done
+          echo "Key file not visible yet; continuing so IndexNow can re-check later."
+
       - name: Notify IndexNow about updated pages
         shell: bash
         run: |
@@ -24,5 +39,5 @@ jobs:
           KEY="a4d1c9f43b8e4a83a567cb0192e5d7f1"
           for URL in             "https://recovery-wearable-notes.netlify.app/"             "https://recovery-wearable-notes.netlify.app/it/"; do
             echo "Submitting $URL"
-            curl -fsS --retry 3 --get "https://api.indexnow.org/indexnow"               --data-urlencode "url=$URL"               --data-urlencode "key=$KEY"               -o /dev/null
+            curl -sS --retry 3 --get "https://api.indexnow.org/indexnow"               --data-urlencode "url=$URL"               --data-urlencode "key=$KEY"               -o /dev/null
           done
