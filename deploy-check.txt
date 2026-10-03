@@ -1,0 +1,2 @@
+Netlify continuous deployment check — 2026-10-03.
+If this file is visible on the production site, GitHub -> Netlify automatic deployment is working.
