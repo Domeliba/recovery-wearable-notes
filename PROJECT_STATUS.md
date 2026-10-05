@@ -28,7 +28,7 @@ The earlier suggestion to create a post in r/referralcodes was superseded by dir
 
 | Channel | Finding | Action |
 | --- | --- | --- |
-| Referral.is | https://referral.is/code/whoop explicitly accepts member links and displays them randomly; only one competing link was visible during review. Add yours opens Login Required. Google sign-in returned error 400, redirect_uri_mismatch; other sign-in methods remain visible. | Candidate new listing after legitimate account access. Submission is not complete. Do not retry the broken Google method or repeatedly request access. Use the direct WHOOP link, not a competing product entry. |
+| Referral.is | https://referral.is/code/whoop explicitly accepts member links and displays them randomly. The personal WHOOP link and code FC2E68B1 were submitted on 2026-10-05; the dashboard confirmed pending review. The public page had not yet displayed the code. | Await moderation; the form indicates 24–48 hours. Check the public page for approval in the existing monitor. Do not submit again or create a duplicate product. Google OAuth returned redirect_uri_mismatch; email login worked. |
 | Referrals Buddy | Pricing is free for 30 days with one link, then listing pauses unless upgraded; Member is £5/month. https://referralsbuddy.com/pricing | Lower priority; do not buy membership or Spotlight. Earlier blanket recommendation as a free permanent directory is incorrect for new accounts. |
 | Doctor of Credit | https://www.doctorofcredit.com/whoop-referral-codes/ says comments are now closed to prevent abuse. | No submission. |
 | Invitation / Refer.guide | Explicitly accepts member referral pages, but the reviewed WHOOP description still advertises $30 off rather than the current official free-month wording. https://invitation.codes/whoop | Secondary candidate; account and accurate listing text required. Do not repeat stale cash-discount claims. |
@@ -74,7 +74,7 @@ Use full supported direct WHOOP links in directories. Use campaign parameters on
 
 Review weekly, but notify the user only about material findings, verified improvements or an indispensable access step. Do not automate public posting during scheduled monitoring.
 
-The existing daily WHOOP SEO Index Watch was updated on 2026-10-05 to read this record first, check the live technical state, avoid duplicate actions and report material changes only. Its schedule was preserved. The existing referral-offer watch and 30-day review were preserved; no additional recurring task or paid service was created.
+The existing daily WHOOP SEO Index Watch includes checking the pending Referral.is listing for approval without resubmission. It was updated on 2026-10-05 to read this record first, check the live technical state, avoid duplicate actions and report material changes only. Its schedule was preserved. The existing referral-offer watch and 30-day review were preserved; no additional recurring task or paid service was created.
 
 ## Official offer rules
 
