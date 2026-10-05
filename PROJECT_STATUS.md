@@ -10,7 +10,7 @@ Last reviewed: 2026-10-05. Read this record before making changes or posting.
 - Personal referral: https://join.whoop.com/FC2E68B1
 - Google verification and sitemap submission were completed previously. Sitemap was reported successful. Do not repeat setup.
 - The latest title/H1 changes and sitemap dates were already committed before this review.
-- Search Console is signed out in the available browser. No current performance or coverage numbers have been independently retrieved.
+- Search Console access is unavailable in the current browser. The user requested alternative methods after it failed to load. No current performance or coverage numbers have been independently retrieved. Continue public checks and permitted distribution without requiring another Google sign-in; do not repeat the failed access flow unless requested.
 - Do not repeatedly request Google URL indexing. The previous quota error is not evidence that the sitemap or site is broken.
 
 ## Confirmed distribution — do not repost
@@ -59,11 +59,11 @@ Keep the existing URLs, verification token, referral identity, QR code, sitemap 
 
 English referral searches surface official WHOOP pages, indexed Reddit posts, referral directories and focused independent sites such as whoopreferralcode.com and zonefivelabs.com/whoop-referral-code/. This is qualitative search evidence, not measured Google position, traffic or search volume. Some competitor copy overstates free hardware, extra months or checkout savings. Do not imitate unverified claims.
 
-Priorities after the first fixes and Referral.is submission: retrieve the Search Console baseline, await the pending listing, test one more free discoverable directory (ReferralCodes.com), then use actual query/page and click data to decide whether more original content is worth creating. Avoid dozens of duplicate country/month coupon pages and paid traffic before evidence of merchant-qualified conversions.
+Priorities after the first fixes and Referral.is submission: track merchant outcome notices privately, await the pending listing, and test one more free discoverable directory (ReferralCodes.com). Search Console is a useful optional data source when accessible, not a blocker for these actions. Use actual query/page and click data when available to decide whether more original content is worth creating. Avoid dozens of duplicate country/month coupon pages and paid traffic before evidence of merchant-qualified conversions.
 
 ## Measurement
 
-No persistent outbound click analytics are currently configured. Search Console remains an access-dependent priority: retrieve available query and page data before claiming measured SEO progress or making more title changes. Directory click counters can help evaluate distribution but cannot prove qualified WHOOP referrals. A page visit, copy, referral click, Reddit vote or notification of use is not a merchant-qualified referral. Do not infer source attribution from timing alone.
+No persistent outbound click analytics are currently configured. Search Console remains an access-dependent priority: retrieve available query and page data before claiming measured SEO progress or making more title changes. Directory click counters can help evaluate distribution but cannot prove qualified WHOOP referrals. Provider emails can confirm a signup notice and, separately, a later credit award; read the full terms in each notification rather than treating its congratulatory subject as an awarded credit. Keep all email contents, identities and account outcomes out of this public record. A page visit, copy, referral click, Reddit vote or notification of use is not a merchant-qualified referral. Do not infer source attribution from timing alone.
 
 Track separately when data becomes accessible:
 
@@ -90,3 +90,11 @@ The official program describes one free month for the new member and one members
 - For original content, prefer a specific firsthand WHOOP experience or a real search question supported by data; obtain missing personal observations instead of inventing them. Avoid generic AI reviews, repeated coupon pages and daily title rewrites.
 - A truthful link in the user's own existing permitted bio or a recommendation to someone already interested may be useful, but do not send unsolicited messages or change unspecified profiles.
 - Start with the first verified qualified referral, then concentrate effort on channels with evidence of results. The existing monitor and 30-day review provide follow-up without extra scheduled tasks or costs.
+
+## Alternative workflow while Google access is unavailable
+
+- On 2026-10-05 a public site-specific search returned the English homepage. This is evidence of public discoverability in that search service, not exact Google rank, Search Console coverage, impressions or traffic.
+- The existing WHOOP Referral Watch now also checks relevant WHOOP referral/credit email notices privately, distinguishes conditional signup notices from awarded months, and suppresses notifications for previously known notices. Its schedule and official-offer monitoring were preserved.
+- ReferralCodes.com explicitly supports agent-assisted JSON imports at https://referralcodes.com/agents. Its documented fields are shop, discount, url, code and description; all submissions still require a legitimate member account and moderation. A single accurate WHOOP import was prepared, but no account or new listing has been created there. Do not install an external MCP client or broaden account permissions just to submit one link.
+- Anonymous coupon submission pages were investigated, but no additional WHOOP placement with explicit permission and a completed submission was established. Mint Districts saves codes in the browser, so local saving is not evidence of public distribution.
+- Preserve the live titles and working referral while attribution is unknown. Do not replace missing analytics with invented estimates or repeatedly gate the project on Google login.
