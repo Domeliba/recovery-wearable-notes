@@ -29,6 +29,7 @@ The earlier suggestion to create a post in r/referralcodes was superseded by dir
 | Channel | Finding | Action |
 | --- | --- | --- |
 | Referral.is | https://referral.is/code/whoop explicitly accepts member links and displays them randomly. The personal WHOOP link and code FC2E68B1 were submitted on 2026-10-05; the dashboard confirmed pending review. The public page had not yet displayed the code. | Await moderation; the form indicates 24–48 hours. Check the public page for approval in the existing monitor. Do not submit again or create a duplicate product. Google OAuth returned redirect_uri_mismatch; email login worked. |
+| ReferralCodes.com | https://referralcodes.com/shop/whoop-referral explicitly accepts personal WHOOP links. Its FAQ https://referralcodes.com/faq/ describes a permanently free basic profile, moderation, one link per merchant and click counts; boosts are optional paid services. The browser's Share Your Whoop Referral opened a free-account signup prompt. | Next free listing candidate; legitimate verified account needed. No submission yet. Use the direct personal WHOOP link, compare actual clicks later, and do not resubmit to gain freshness. |
 | Referrals Buddy | Pricing is free for 30 days with one link, then listing pauses unless upgraded; Member is £5/month. https://referralsbuddy.com/pricing | Lower priority; do not buy membership or Spotlight. Earlier blanket recommendation as a free permanent directory is incorrect for new accounts. |
 | Doctor of Credit | https://www.doctorofcredit.com/whoop-referral-codes/ says comments are now closed to prevent abuse. | No submission. |
 | Invitation / Refer.guide | Explicitly accepts member referral pages, but the reviewed WHOOP description still advertises $30 off rather than the current official free-month wording. https://invitation.codes/whoop | Secondary candidate; account and accurate listing text required. Do not repeat stale cash-discount claims. |
@@ -58,11 +59,11 @@ Keep the existing URLs, verification token, referral identity, QR code, sitemap 
 
 English referral searches surface official WHOOP pages, indexed Reddit posts, referral directories and focused independent sites such as whoopreferralcode.com and zonefivelabs.com/whoop-referral-code/. This is qualitative search evidence, not measured Google position, traffic or search volume. Some competitor copy overstates free hardware, extra months or checkout savings. Do not imitate unverified claims.
 
-Priorities: maintain the working direct referral, add a free discoverable directory listing, fix conversion friction, then use Search Console query/page data to decide whether more original content is worth creating. Avoid dozens of duplicate country/month coupon pages and paid traffic before evidence of merchant-qualified conversions.
+Priorities after the first fixes and Referral.is submission: retrieve the Search Console baseline, await the pending listing, test one more free discoverable directory (ReferralCodes.com), then use actual query/page and click data to decide whether more original content is worth creating. Avoid dozens of duplicate country/month coupon pages and paid traffic before evidence of merchant-qualified conversions.
 
 ## Measurement
 
-No persistent outbound click analytics are currently configured. A page visit, copy, referral click, Reddit vote or notification of use is not a merchant-qualified referral. Do not infer source attribution from timing alone.
+No persistent outbound click analytics are currently configured. Search Console remains an access-dependent priority: retrieve available query and page data before claiming measured SEO progress or making more title changes. Directory click counters can help evaluate distribution but cannot prove qualified WHOOP referrals. A page visit, copy, referral click, Reddit vote or notification of use is not a merchant-qualified referral. Do not infer source attribution from timing alone.
 
 Track separately when data becomes accessible:
 
@@ -81,3 +82,11 @@ The existing daily WHOOP SEO Index Watch includes checking the pending Referral.
 Source checked 2026-10-05: https://support.whoop.com/s/article/Refer-A-Friend
 
 The official program describes one free month for the new member and one membership month for the referrer after eligibility. Prepaid credits extend renewal; the referring membership must be active and not set to cancel. Retailer purchases and hardware/upgrade fees are excluded; promos do not stack. Confirm each user's final checkout rather than promising a guaranteed extra trial month or cash discount.
+
+## Next experiments after the initial setup
+
+- First establish a baseline of search visibility, site clicks and confirmed WHOOP credits; do not estimate conversion probabilities without it.
+- Let each new legitimate listing be reviewed before submitting another copy. Compare its clicks and status over meaningful windows, while keeping the WHOOP credit outcome separate.
+- For original content, prefer a specific firsthand WHOOP experience or a real search question supported by data; obtain missing personal observations instead of inventing them. Avoid generic AI reviews, repeated coupon pages and daily title rewrites.
+- A truthful link in the user's own existing permitted bio or a recommendation to someone already interested may be useful, but do not send unsolicited messages or change unspecified profiles.
+- Start with the first verified qualified referral, then concentrate effort on channels with evidence of results. The existing monitor and 30-day review provide follow-up without extra scheduled tasks or costs.
