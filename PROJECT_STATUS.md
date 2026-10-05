@@ -28,7 +28,7 @@ The earlier suggestion to create a post in r/referralcodes was superseded by dir
 
 | Channel | Finding | Action |
 | --- | --- | --- |
-| Referral.is | https://referral.is/code/whoop explicitly accepts member links and displays them randomly; only one competing link was visible during review. Add yours opens Login Required. | Highest-priority new listing after the user signs into or creates a legitimate account. Submission is not complete. Use the direct WHOOP link, not a competing product entry. |
+| Referral.is | https://referral.is/code/whoop explicitly accepts member links and displays them randomly; only one competing link was visible during review. Add yours opens Login Required. Google sign-in returned error 400, redirect_uri_mismatch; other sign-in methods remain visible. | Candidate new listing after legitimate account access. Submission is not complete. Do not retry the broken Google method or repeatedly request access. Use the direct WHOOP link, not a competing product entry. |
 | Referrals Buddy | Pricing is free for 30 days with one link, then listing pauses unless upgraded; Member is £5/month. https://referralsbuddy.com/pricing | Lower priority; do not buy membership or Spotlight. Earlier blanket recommendation as a free permanent directory is incorrect for new accounts. |
 | Doctor of Credit | https://www.doctorofcredit.com/whoop-referral-codes/ says comments are now closed to prevent abuse. | No submission. |
 | Invitation / Refer.guide | Explicitly accepts member referral pages, but the reviewed WHOOP description still advertises $30 off rather than the current official free-month wording. https://invitation.codes/whoop | Secondary candidate; account and accurate listing text required. Do not repeat stale cash-discount claims. |
@@ -39,7 +39,7 @@ The earlier suggestion to create a post in r/referralcodes was superseded by dir
 
 Baseline: both pages, robots.txt, sitemap.xml, CSS and config return HTTP 200. Unknown paths return real HTTP 404. Existing canonical and reciprocal hreflang are correct. /it redirects to /it/. /index.html and /it/index.html were duplicates returning 200.
 
-Changes prepared in this review:
+Changes implemented and deployed in this review (commit a2b95b3dd1720697b87f6b808f259175524876c7):
 
 - Keep working static HTML referral links if config fails; do not overwrite them with #.
 - Preserve Italian offer text instead of replacing it with English.
@@ -49,6 +49,8 @@ Changes prepared in this review:
 - Update checked dates only after verifying the official help page.
 - Consolidate explicit index.html URLs into existing canonical pages using narrow 301 redirects.
 - Exclude project/source Markdown documents from search results via X-Robots-Tag, without blocking the actual HTML pages.
+
+Validation: live HTML and referral script matched the committed bytes; JavaScript syntax and English/Italian behavior with missing or invalid configuration passed. Both explicit index.html URLs now redirect to their canonical pages. Robots and sitemap return 200; project notes return X-Robots-Tag: noindex. Browser checks confirmed the Italian offer and copy feedback. The official personal signup link recognized the referral identity and free-month offer in the US flow; this does not establish another region's checkout price or a qualified conversion. The repository's IndexNow action completed successfully.
 
 Keep the existing URLs, verification token, referral identity, QR code, sitemap and Netlify connection. Do not run the old sync-from-netlify workflow to overwrite a newer repository change. Do not make wholesale title changes before collecting query data.
 
@@ -71,6 +73,8 @@ Track separately when data becomes accessible:
 Use full supported direct WHOOP links in directories. Use campaign parameters on the landing-page URL only when a real analytics collector is available; do not claim that UTMs alone measure referrals. No new paid analytics service has been enabled.
 
 Review weekly, but notify the user only about material findings, verified improvements or an indispensable access step. Do not automate public posting during scheduled monitoring.
+
+The existing daily WHOOP SEO Index Watch was updated on 2026-10-05 to read this record first, check the live technical state, avoid duplicate actions and report material changes only. Its schedule was preserved. The existing referral-offer watch and 30-day review were preserved; no additional recurring task or paid service was created.
 
 ## Official offer rules
 
