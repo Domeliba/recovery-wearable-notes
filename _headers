@@ -13,3 +13,13 @@
 
 /assets/*
   Cache-Control: public, max-age=86400
+
+
+/README.md
+  X-Robots-Tag: noindex
+
+/CONTENT_PACK.md
+  X-Robots-Tag: noindex
+
+/PROJECT_STATUS.md
+  X-Robots-Tag: noindex

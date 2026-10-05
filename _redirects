@@ -1,0 +1,3 @@
+# Consolidate duplicate file URLs into the existing canonical pages.
+/index.html       /       301!
+/it/index.html    /it/    301!

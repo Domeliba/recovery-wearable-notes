@@ -1,6 +1,6 @@
 # Distribution pack — WHOOP referral FC2E68B1
 
-Updated: 2026-10-03
+Updated: 2026-10-05
 
 Referral link: https://join.whoop.com/FC2E68B1
 Landing page: https://recovery-wearable-notes.netlify.app/
@@ -32,6 +32,8 @@ https://recovery-wearable-notes.netlify.app/
 
 ## Reddit post — referral communities only
 
+Existing posts are already live in r/couponcodes and r/referralcodes. Do not repost. Read PROJECT_STATUS.md before distributing. r/referralcodes prohibits bots/automation and promoting your website; omit the landing-page link in that community.
+
 Title:
 WHOOP referral link — 1 free month (official terms checked Oct 2026)
 
@@ -47,9 +49,6 @@ WHOOP's official Refer a Friend page currently says:
 - promos do not stack
 
 Disclosure: I also receive a free month if the referral qualifies.
-
-I wrote a short explanation of the terms here:
-https://recovery-wearable-notes.netlify.app/
 
 Always check the final WHOOP checkout because offers can change.
 
@@ -110,3 +109,11 @@ CTA:
 - Claiming a cash discount when the benefit is membership time.
 - Automated comment spam, fake accounts or fake reviews.
 - Creating dozens of near-identical SEO pages.
+
+
+## Current channel corrections
+
+- Referral.is accepts WHOOP links but requires login; submission is pending.
+- Referrals Buddy offers only 30 days free to new accounts, then £5/month to keep codes live. Do not treat it as a permanent free listing.
+- Doctor of Credit has closed its WHOOP referral comments.
+- Scheduled monitoring must not automatically post to communities that prohibit bots or automation.
