@@ -152,3 +152,14 @@ The official program describes one free month for the new member and one members
 - HTML, guides, assets, sitemap, redirects, headers and other source/configuration changes still require deployment. Missing or unknown cached Git refs and no-cache/manual rebuilds fail open and proceed.
 - Meaningful checks used a temporary Git history: documentation/workflow-only changes skip; new guide, assets plus documentation, missing refs and identical no-cache refs proceed. TOML and Bash parsing passed. Production behavior remains unverified until Netlify resumes publishing; this does not lift a hosting plan limit.
 - Keep site edits together in one reviewed release when possible. Source commits and successful IndexNow checks are not evidence of a live production deploy.
+
+## Referral navigation correction — 2026-10-06
+
+- A live browser check of the Italian `Come funziona` anchor showed the sticky header ending at 65px while the section heading began at about 34px: the header obscured the heading. The shared stylesheet now gives sections with IDs an 80px scroll margin. This covers the English `#how` and Italian `#come` anchors without changing referral destinations, copy behavior, offers, titles or page structure.
+- Bumped only the stylesheet query version on the two homepages and two prepared guides so a resumed production deployment will not reuse the previous day-cached stylesheet. Do not describe this source correction as live while production deploys are paused.
+
+## Additional directory screening — 2026-10-06
+
+- CouponBind's WHOOP page contains referral-labelled offers, but the live Submit Coupon form marks expiration date and email mandatory and showed no option for an unknown/no expiration date. No submission was made; never invent a date or supply private contact data without specific authorization.
+- ClothingRIC's WHOOP page invites coupon contributions, but its Terms of Service restrict automated access without written permission and the page mixes current referral wording with outdated cash-discount claims. No agent submission was attempted. Do not copy its unverified discount claims.
+- Promostack explicitly permits disclosed referral links but requires an account to submit; the observed catalog showed 19 codes across brands and no verified WHOOP audience. Benefit.codes is free but also requires an account; a WHOOP placement was not verified. Keep these below the existing pending WHOOP-specific submissions unless new evidence justifies another account. No new account, extension, payment or public post was created in this screening.
