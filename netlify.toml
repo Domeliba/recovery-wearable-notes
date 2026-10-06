@@ -1,0 +1,4 @@
+# Skip continuous-deployment runs for documentation-only changes.
+# Build command, publish directory and existing dashboard settings stay unset.
+[build]
+  ignore = "bash ./scripts/netlify-ignore.sh"

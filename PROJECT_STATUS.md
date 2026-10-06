@@ -145,3 +145,10 @@ The official program describes one free month for the new member and one members
 - The guide commit a55d17336e24e91d2f0b20ca5616fb5f2fbf92df is on main and passed local HTML metadata, internal-link, referral-destination and sitemap checks. At the live browser check, the Italian guide returned Netlify's Page not found and the Italian homepage still lacked the new guide link. Do not report the guides as published until production renders them.
 - GitHub's existing IndexNow job succeeded, but it only submitted the two old homepage URLs and checked the already-live key. Its success is not evidence of this deployment. Extend it to both guide URLs, fail when the guides are not live and inspect the HTTP acceptance status. IndexNow receipt is not indexing.
 - The Netlify dashboard in this session is signed out. No deploy settings, account plan or actual Netlify build result can be inferred from this. A current authorized dashboard session is needed to diagnose the automatic GitHub deployment if the production pages remain absent.
+
+## Avoid documentation-only production deploys — 2026-10-06
+
+- Added a minimal netlify.toml with a custom ignore command, preserving dashboard build/publish settings. The Bash script skips continuous-deployment builds only when changes are limited to README.md, CONTENT_PACK.md, PROJECT_STATUS.md and .github workflows.
+- HTML, guides, assets, sitemap, redirects, headers and other source/configuration changes still require deployment. Missing or unknown cached Git refs and no-cache/manual rebuilds fail open and proceed.
+- Meaningful checks used a temporary Git history: documentation/workflow-only changes skip; new guide, assets plus documentation, missing refs and identical no-cache refs proceed. TOML and Bash parsing passed. Production behavior remains unverified until Netlify resumes publishing; this does not lift a hosting plan limit.
+- Keep site edits together in one reviewed release when possible. Source commits and successful IndexNow checks are not evidence of a live production deploy.
