@@ -6,9 +6,13 @@ on:
     paths:
       - "index.html"
       - "it/index.html"
+      - "whoop-trial-to-peak/**"
+      - "it/prova-whoop-peak/**"
       - "sitemap.xml"
       - "robots.txt"
       - "assets/**"
+      - ".github/workflows/indexnow.yml"
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -17,27 +21,38 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - name: Wait for Netlify to publish IndexNow key
+      - name: Wait for the public pages and IndexNow key
         shell: bash
         run: |
           set -euo pipefail
-          KEY_URL="https://recovery-wearable-notes.netlify.app/a4d1c9f43b8e4a83a567cb0192e5d7f1.txt"
+          BASE="https://recovery-wearable-notes.netlify.app"
+          KEY="a4d1c9f43b8e4a83a567cb0192e5d7f1"
           for i in {1..18}; do
-            if curl -fsS "$KEY_URL" | grep -q "a4d1c9f43b8e4a83a567cb0192e5d7f1"; then
-              echo "IndexNow key is live."
+            if curl -fsS --max-time 15 "$BASE/$KEY.txt" | grep -q "$KEY" &&
+               curl -fsS --max-time 15 "$BASE/whoop-trial-to-peak/" > /dev/null &&
+               curl -fsS --max-time 15 "$BASE/it/prova-whoop-peak/" > /dev/null; then
+              echo "Guide pages and IndexNow key are live."
               exit 0
             fi
-            echo "Waiting for Netlify deploy..."
+            echo "Waiting for Netlify to publish the guides..."
             sleep 10
           done
-          echo "Key file not visible yet; continuing so IndexNow can re-check later."
+          echo "::error::Guide deployment is not verified. No IndexNow request sent."
+          exit 1
 
-      - name: Notify IndexNow about updated pages
+      - name: Notify IndexNow about the canonical pages
         shell: bash
         run: |
           set -euo pipefail
+          BASE="https://recovery-wearable-notes.netlify.app"
           KEY="a4d1c9f43b8e4a83a567cb0192e5d7f1"
-          for URL in             "https://recovery-wearable-notes.netlify.app/"             "https://recovery-wearable-notes.netlify.app/it/"; do
-            echo "Submitting $URL"
-            curl -sS --retry 3 --get "https://api.indexnow.org/indexnow"               --data-urlencode "url=$URL"               --data-urlencode "key=$KEY"               -o /dev/null
+          for PATHNAME in / /it/ /whoop-trial-to-peak/ /it/prova-whoop-peak/; do
+            URL="$BASE$PATHNAME"
+            HTTP_STATUS=$(curl -sS --max-time 30 --get "https://api.indexnow.org/indexnow" \
+              --data-urlencode "url=$URL" --data-urlencode "key=$KEY" \
+              -o /dev/null -w "%{http_code}")
+            case "$HTTP_STATUS" in
+              200|202) echo "IndexNow received $URL (HTTP $HTTP_STATUS); indexing is not guaranteed." ;;
+              *) echo "::error::IndexNow rejected $URL (HTTP $HTTP_STATUS)"; exit 1 ;;
+            esac
           done
