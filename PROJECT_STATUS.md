@@ -1,6 +1,6 @@
 # WHOOP referral project — operational record
 
-Last reviewed: 2026-10-06. Read this record before making changes or posting.
+Last reviewed: 2026-10-09. Read this record before making changes or posting.
 
 ## Existing production
 
@@ -126,11 +126,11 @@ The official program describes one free month for the new member and one members
 - Keep the production site stable: this review found distribution-state changes, not a reason to alter working titles, referral behavior or indexed URLs. Continue separating directory presence and click counts from privately tracked WHOOP outcomes. No private email contents, account results or referred-person identities belong in this record.
 
 
-## ReferralMate submission confirmed — 2026-10-06
+## ReferralMate submission and approval — 2026-10-06 to 2026-10-08
 
-- After the user's manual account step, the existing submission tab displayed `Referral code submitted successfully` and explicitly said the WHOOP submission was sent for review and would appear on the existing WHOOP page if approved. This supersedes the earlier prepared-draft status. Treat the completed WHOOP submission as pending moderation; do not submit again.
-- The prepared payload was code FC2E68B1, direct URL https://join.whoop.com/FC2E68B1 and the factual offer/disclosure documented above. The success screen did not repeat its stored fields, so it proves receipt of a WHOOP submission rather than independently revalidating every stored field.
-- Both the public web retrieval and the rendered page at https://www.referralmate.com.au/brands/whoop still showed only the existing other contributor's code. Public approval/visibility of FC2E68B1 is not yet confirmed. Check the public brand page in the existing distribution monitor; absence alone is not an explicit rejection.
+- After the user's manual account step on 2026-10-06, the existing submission tab displayed `Referral code submitted successfully` and said the WHOOP submission was sent for review.
+- Public approval was independently verified on 2026-10-08 at https://www.referralmate.com.au/brands/whoop: the approved referral list displayed `Shared by domenico`, exact code `FC2E68B1`, the factual one-month offer/disclosure and `Verified 6 Oct 2026`. A fresh public retrieval on 2026-10-09 still showed the exact code, with the page last verified on 7 October and the listing last confirmed on 6 October.
+- This supersedes the prior pending-moderation status. Do not submit again, create a duplicate or request another account/login step. Public directory approval proves discoverability of the code, not clicks, source attribution, a qualified WHOOP referral or awarded membership credit.
 - No account email, credentials, verification codes or private account identifiers are included here. Directory submission/approval remains separate from privately tracked WHOOP signup notices and membership-credit awards.
 
 ## Trial-to-Peak guide — 2026-10-06
