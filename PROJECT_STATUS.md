@@ -1,6 +1,6 @@
 # WHOOP referral project — operational record
 
-Last reviewed: 2026-10-09. Read this record before making changes or posting.
+Last reviewed: 2026-10-16. Read this record before making changes or posting.
 
 ## Existing production
 
@@ -163,3 +163,22 @@ The official program describes one free month for the new member and one members
 - CouponBind's WHOOP page contains referral-labelled offers, but the live Submit Coupon form marks expiration date and email mandatory and showed no option for an unknown/no expiration date. No submission was made; never invent a date or supply private contact data without specific authorization.
 - ClothingRIC's WHOOP page invites coupon contributions, but its Terms of Service restrict automated access without written permission and the page mixes current referral wording with outdated cash-discount claims. No agent submission was attempted. Do not copy its unverified discount claims.
 - Promostack explicitly permits disclosed referral links but requires an account to submit; the observed catalog showed 19 codes across brands and no verified WHOOP audience. Benefit.codes is free but also requires an account; a WHOOP placement was not verified. Keep these below the existing pending WHOOP-specific submissions unless new evidence justifies another account. No new account, extension, payment or public post was created in this screening.
+
+
+## Public search, live-state and distribution review — 2026-10-16
+
+- Repository source: before this review, main still ended at commit `91cbadfc225008f8e5975b60826c2f0e039cfa19`; no newer code change or deploy claim was present.
+- Live technical state: the English and Italian homepages render the expected static referral link `https://join.whoop.com/FC2E68B1`, reciprocal canonical/hreflang metadata and the existing one-month disclosure. `robots.txt` and `sitemap.xml` returned HTTP 200; the sitemap still contains the two live homepages. Explicit `index.html` URLs resolve to their canonical paths, and a nonexistent path returned HTTP 404.
+- The prepared guides at `/whoop-trial-to-peak/` and `/it/prova-whoop-peak/` still render Netlify's Page not found page, and the live homepages still lack the guide links. This is the already documented paused-deploy state, not a new fault or a verified recovery. Do not resubmit IndexNow or announce publication while these URLs remain unavailable.
+- Google public-result checks showed the homepage for `site:recovery-wearable-notes.netlify.app`, for the exact code `FC2E68B1`, and on the observed first result page for `WHOOP referral 2026`. The homepage was not observed on the first page for `WHOOP referral code`, `WHOOP free month` or `codice referral WHOOP`. This is qualitative, session-dependent public visibility—not Search Console data, a stable rank, impressions, clicks or conversion attribution. A Bing public `site:` check did not surface a result in the observed session; this does not prove deindexing.
+- The two known Reddit posts remain publicly discoverable. No new concrete question about the offer, eligibility or link operation was found; a comment on the couponcodes post still only shares another user's code and needs no response.
+- Referral.is still displayed one public WHOOP listing belonging to another contributor, not `FC2E68B1`. The existing submission remains unpublished/unknown; no explicit rejection was observed. Do not resubmit.
+- WeWinCodes' complete rendered public queue still contained neither WHOOP nor `FC2E68B1`, with zero pending and zero verified entries. Publication status remains unknown rather than rejected; do not resubmit.
+- ReferralMate still publicly displays `FC2E68B1`; this is the already recorded approval, not a new outcome.
+
+### New Italian directory candidate: CodiceAmico.app
+
+- A public WHOOP page now exists at https://codiceamico.app/whoop, updated 2026-10-16. It explicitly invites users to share a WHOOP referral and currently reports zero verified WHOOP codes, creating a concrete first-listing opportunity for an Italian audience.
+- The base listing path redirects to Google sign-in. The site describes the code as free and its price page monetizes optional visibility boosts instead: top position €4.99 for two weeks, paid Karma packs and a €2.99/30-day auto-bump. Do not buy any boost before organic evidence.
+- Estimated trade-off: roughly 3–5 minutes once signed in, €0 expected base cost, low content/policy risk because the brand page explicitly requests member codes, and medium account/privacy cost because a Google account is required. Audience size and conversion quality are unverified.
+- No account was created, no login was attempted, no referral was submitted and no payment was made. If the user chooses this channel, use one truthful submission with the direct WHOOP link and do not duplicate or pay for ranking.
