@@ -1,6 +1,6 @@
 # WHOOP referral project — operational record
 
-Last reviewed: 2026-10-16. Read this record before making changes or posting.
+Last reviewed: 2026-10-17. Read this record before making changes or posting.
 
 ## Existing production
 
@@ -182,3 +182,13 @@ The official program describes one free month for the new member and one members
 - The base listing path redirects to Google sign-in. The site describes the code as free and its price page monetizes optional visibility boosts instead: top position €4.99 for two weeks, paid Karma packs and a €2.99/30-day auto-bump. Do not buy any boost before organic evidence.
 - Estimated trade-off: roughly 3–5 minutes once signed in, €0 expected base cost, low content/policy risk because the brand page explicitly requests member codes, and medium account/privacy cost because a Google account is required. Audience size and conversion quality are unverified.
 - No account was created, no login was attempted, no referral was submitted and no payment was made. If the user chooses this channel, use one truthful submission with the direct WHOOP link and do not duplicate or pay for ranking.
+
+
+## Public recheck and directory screening — 2026-10-17
+
+- Repository and production state remained unchanged after the 2026-10-16 record. The English and Italian homepages still expose the exact static referral link `https://join.whoop.com/FC2E68B1`, correct self-canonicals and reciprocal English/Italian/x-default hreflang. `robots.txt` and `sitemap.xml` are reachable; the sitemap still lists only the two live homepages. Explicit `index.html` requests still resolve to the canonical URLs and an unknown path renders Netlify's Page not found response.
+- The prepared English and Italian trial-to-Peak guides still render the already known Netlify 404 page, and neither live homepage links to its guide. This is not a new outage or proof that deployment resumed. Do not submit these URLs to IndexNow while they are unavailable.
+- Public search evidence was materially unchanged: the homepage remained retrievable for the site domain and exact referral code, while it was not observed among the leading results checked for the generic `WHOOP referral code`, `WHOOP free month` or Italian referral query. A Bing `site:` check again exposed no result in the observed session. These checks are qualitative and do not replace Search Console or establish traffic, clicks, rank stability or attribution.
+- Referral.is still showed only the other contributor's public WHOOP listing; no approval or explicit rejection of `FC2E68B1` was observed. WeWinCodes still showed zero pending and zero verified submissions and did not expose WHOOP or the code, so its state remains unknown rather than rejected. ReferralMate still displayed the approved `FC2E68B1` listing. CodiceAmico.app still reported zero verified WHOOP codes. No resubmission was made.
+- The two existing Reddit posts remained the only known posts. The observable couponcodes comment still only shared another user's referral code; no concrete question about the offer, eligibility or link operation required a response. The referralcodes page was unavailable to the cloud-browser network during this check, so absence of a new question there was not claimed from that browser.
+- ReferralCode.tv surfaced as an additional current WHOOP directory at https://www.referralcode.tv/brand/whoop-referral-codes/. Its public page displayed six verified WHOOP entries and public click counters, providing better evidence of real discovery than an empty directory, but also more competition. The Add Referral Code path redirected to sign-in and account registration. No account, submission, payment or interaction was created. Compared with the already identified CodiceAmico opportunity, this is not clearly superior enough to justify another account yet: keep it as a secondary candidate unless stronger audience or conversion evidence appears.
