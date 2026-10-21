@@ -1,6 +1,6 @@
 # WHOOP referral project — operational record
 
-Last reviewed: 2026-10-20. Read this record before making changes or posting.
+Last reviewed: 2026-10-21. Read this record before making changes or posting.
 
 ## Existing production
 
@@ -203,3 +203,14 @@ The official program describes one free month for the new member and one members
 - Referral.is publicly showed a different contributor code, not `FC2E68B1`; no approval or explicit rejection of the existing submission was observed. WeWinCodes still displayed zero pending and zero verified entries and did not expose WHOOP or the code, so its state remains unknown rather than rejected. ReferralMate still displayed the approved `FC2E68B1` listing. CodiceAmico.app still showed zero verified WHOOP codes; no account, submission or paid boost was created.
 - Reddit's public pages were blocked to the cloud-browser network during this check, so no claim was made about new comments from that browser. Public search did not surface a new concrete question tied to either documented post. No reply, post, DM or other public interaction was made.
 - No materially superior free distribution channel emerged. Existing submissions were not repeated, and no account, payment, analytics service or IndexNow resubmission was created.
+
+
+## Public recheck — 2026-10-21
+
+- Repository main contained no source change after the 2026-10-20 documentation commit before this review; no new deployment was assumed.
+- Both live homepages rendered the expected English/Italian content with self-canonicals, reciprocal `en`/`it`/`x-default` hreflang and two static links each to `https://join.whoop.com/FC2E68B1`. `robots.txt` still allows crawling and points to the reachable sitemap; the sitemap still lists the two published homepages. Explicit `index.html` requests still resolved to the canonical paths.
+- The English and Italian trial-to-Peak guide URLs still rendered Netlify's known Page not found response, as did an unrelated missing path. This is the previously documented paused-deploy state, not a new outage or verified recovery.
+- A current public search returned the homepage for the exact referral code and site-focused lookups. It was not observed among the leading results returned for the four generic English/Italian referral queries. This is qualitative public search evidence, not Search Console coverage, stable rank, impressions, clicks, traffic or conversion attribution.
+- Referral.is still showed only the other contributor's WHOOP code, not `FC2E68B1`; no approval or explicit rejection was observed. WeWinCodes still showed zero pending and zero verified referrals and exposed neither WHOOP nor the code, so its state remains unknown rather than rejected. ReferralMate continued to list the approved `FC2E68B1` code.
+- CodiceAmico.app updated its WHOOP page on 2026-10-20 but still reported zero verified codes. This does not materially improve the previously recorded opportunity or justify creating an account automatically. No submission, account, payment, public post, reply, DM or IndexNow request was made.
+- Direct retrieval of the two documented Reddit posts was unavailable in the public search/browser environment. A focused public lookup did not surface a new concrete question tied to either post, so no claim of complete comment coverage and no reply was made.
