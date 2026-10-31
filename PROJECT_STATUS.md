@@ -1,6 +1,6 @@
 # WHOOP referral project — operational record
 
-Last reviewed: 2026-10-30. Read this record before making changes or posting.
+Last reviewed: 2026-10-31. Read this record before making changes or posting.
 
 ## Existing production
 
@@ -314,4 +314,17 @@ The official program describes one free month for the new member and one members
 - Fresh public searches returned both localized project pages for the exact code and monitored English/Italian referral phrases. The Italian page was also present in the current returned set for the generic monitored queries. This remains qualitative public-search evidence only: it is not Search Console data and does not establish stable ranking, impressions, clicks, conversions, or referral attribution. Compared with the 2026-10-29 recheck, no defensible material gain or loss was established.
 - Referral.is still publicly displayed only the previously observed third-party code `13AC82`; there was no public approval or explicit rejection for `FC2E68B1`. WeWinCodes still showed an empty queue with zero verified, zero pending, and zero needs-vouching entries, so the prior submission remains unknown rather than rejected. ReferralMate continued to show the already-known approved `FC2E68B1` listing. CodiceAmico.app still showed zero WHOOP codes.
 - The public search result for the existing r/referralcodes post exposed only additional promotional codes from other users, not a concrete question about the offer, link operation, or eligibility. No useful new question was observed for the couponcodes post. No reply, post, direct message, report, submission, account, payment, deployment, or IndexNow request was made.
+- No newly evidenced free distribution opportunity was materially superior to the documented channels.
+
+
+## Public recheck — 2026-10-31
+
+- The repository default branch contained no source or deployment commit after the 2026-10-30 documentation-only review, so no completed implementation work was repeated.
+- Fresh live checks loaded the English and Italian homepages, `robots.txt`, and `sitemap.xml` successfully. Both localized homepages retained their expected titles and content, correct self-canonicals, reciprocal `en`/`it` plus `x-default` hreflang annotations, an `index,follow` robots directive, and two exact static `https://join.whoop.com/FC2E68B1` links each. `/index.html` and `/it/index.html` continued to resolve to the clean homepage URLs.
+- `robots.txt` continued to allow crawling and reference the sitemap. `sitemap.xml` still listed only the two published homepages with the known 2026-10-05 last-modified date.
+- Both trial-to-Peak guide URLs still rendered Netlify's known Page not found response. The paused-deploy block has therefore not recovered, but no new homepage outage or technical regression was observed.
+- Fresh public searches continued to return both localized project pages for the exact code and relevant monitored English/Italian referral phrases. This remains qualitative public-search evidence only: it is not Search Console data and does not establish stable ranking, impressions, clicks, conversions, or referral attribution. Compared with the 2026-10-30 recheck, no defensible material gain or loss was established.
+- Referral.is still publicly displayed only the previously observed third-party code `13AC82`; there was no public approval or explicit rejection for `FC2E68B1`. ReferralMate continued to show the already-known approved `FC2E68B1` listing, last confirmed 2026-10-06. CodiceAmico.app still showed zero WHOOP codes.
+- WeWinCodes showed zero verified and zero pending entries and 131 unrelated needs-review entries. The submitted WHOOP code was not present in the public queue, and no rejection was shown; the submission therefore remains unknown rather than rejected. No resubmission was made.
+- The existing Reddit result exposed only older discussion and additional promotional codes from other users, not a new concrete question about the offer, link operation, or eligibility. No reply, post, direct message, report, submission, account, payment, deployment, or IndexNow request was made.
 - No newly evidenced free distribution opportunity was materially superior to the documented channels.
