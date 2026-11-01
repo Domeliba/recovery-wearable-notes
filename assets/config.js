@@ -6,6 +6,6 @@ window.WHOOP_REFERRAL = {
   lastChecked: "2026-10-05",
   offer: "1 free month",
   offers: { en: "1 free month", it: "1 mese gratis" },
-  ownerBenefit: "I also receive 1 free month if your referral becomes eligible"
+  ownerBenefit: "I may receive a WHOOP referral reward if your referral becomes eligible"
 };
 

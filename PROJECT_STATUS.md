@@ -1,6 +1,6 @@
 # WHOOP referral project — operational record
 
-Last reviewed: 2026-10-31. Read this record before making changes or posting.
+Last reviewed: 2026-11-01. Read this record before making changes or posting.
 
 ## Existing production
 
@@ -328,3 +328,11 @@ The official program describes one free month for the new member and one members
 - WeWinCodes showed zero verified and zero pending entries and 131 unrelated needs-review entries. The submitted WHOOP code was not present in the public queue, and no rejection was shown; the submission therefore remains unknown rather than rejected. No resubmission was made.
 - The existing Reddit result exposed only older discussion and additional promotional codes from other users, not a new concrete question about the offer, link operation, or eligibility. No reply, post, direct message, report, submission, account, payment, deployment, or IndexNow request was made.
 - No newly evidenced free distribution opportunity was materially superior to the documented channels.
+
+## Website improvement and measurement review — 2026-11-01
+
+- Public lookup still returned the English and Italian homepages, but no current Search Console time series, persistent visit/click collector or verified website-to-referral attribution was available. Search visibility is not evidence of growing traffic or qualified referrals. The source contained the prepared guides while production still served the older homepages. Treat the guide release and all subsequent source edits as pending until verified live.
+- Replaced expired October-specific meta descriptions with evergreen English/Italian descriptions containing the exact referral code and signup intent. Kept homepage titles/H1s, canonicals, reciprocal language alternates, Google verification and direct invitation URLs. Shortened the hero to explain the new-member offer and action before signup; personal reward disclosures now remain conditional rather than promising a fixed reward for this account. Updated matching FAQ markup, guide disclosures, reusable copy and sitemap modification dates for actual content edits. The source-reference check date remains October 5; an editorial modification date does not re-verify an offer.
+- The cloud browser rendered `Site not found` for https://super-souffle-ef9224.netlify.app/. No source/history evidence established whether this was an old renamed address or a distinct project. No duplicate project was created and no hosting or redirect settings were guessed.
+- A connector search found Windsor.ai as an optional way to read Search Console query/page clicks and impressions. Its official documentation advertises a one-source free plan without a payment card; a connection was suggested but is not confirmed. No tracking script, analytics account or paid plan was enabled. This would measure Google discovery, not merchant-qualified referral attribution.
+- Future operational records should be updated for material findings, source changes or decisions rather than adding another unchanged daily recheck. Preserve the existing distribution and avoid repeating public submissions or private sign-in requests.

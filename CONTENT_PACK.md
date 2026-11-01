@@ -1,6 +1,6 @@
 # Distribution pack — WHOOP referral FC2E68B1
 
-Updated: 2026-10-05
+Updated: 2026-11-01
 
 Referral link: https://join.whoop.com/FC2E68B1
 Landing page: https://recovery-wearable-notes.netlify.app/
@@ -19,10 +19,10 @@ Official reference: https://support.whoop.com/s/article/Refer-A-Friend
 ## Referral directory listing
 
 Title:
-WHOOP referral — 1 free month (checked October 2026)
+WHOOP referral — 1 free month for eligible new members
 
 Description:
-WHOOP's official Refer a Friend program currently says a new member receives 1 free month. I also receive 1 month of membership credit if the referral becomes eligible. WHOOP says promotions do not stack, so check the final checkout and use the best valid offer.
+WHOOP's official Refer a Friend program currently says a new member receives 1 free month. I may receive a WHOOP referral reward if the referral qualifies. WHOOP says promotions do not stack, so check the final checkout and use the best valid offer.
 
 Direct link:
 https://join.whoop.com/FC2E68B1
@@ -35,7 +35,7 @@ https://recovery-wearable-notes.netlify.app/
 Existing posts are already live in r/couponcodes and r/referralcodes. Do not repost. Read PROJECT_STATUS.md before distributing. r/referralcodes prohibits bots/automation and promoting your website; omit the landing-page link in that community.
 
 Title:
-WHOOP referral link — 1 free month (official terms checked Oct 2026)
+WHOOP referral link — 1 free month for eligible new members
 
 Body:
 If you're already planning to join WHOOP, here's my referral link:
@@ -48,7 +48,7 @@ WHOOP's official Refer a Friend page currently says:
 - direct WHOOP purchases only
 - promos do not stack
 
-Disclosure: I also receive a free month if the referral qualifies.
+Disclosure: I may receive a WHOOP referral reward if the referral qualifies.
 
 Always check the final WHOOP checkout because offers can change.
 
@@ -56,14 +56,14 @@ Always check the final WHOOP checkout because offers can change.
 
 WHOOP referral if anyone is already planning to join: https://join.whoop.com/FC2E68B1
 
-Current official terms say 1 free month for the new member; I also get 1 month of membership credit if it qualifies. WHOOP says promos don't stack, so check the final checkout.
+Current official terms say 1 free month for the new member; I may receive a WHOOP referral reward if it qualifies. WHOOP says promos don't stack, so check the final checkout.
 
 ## Italian post
 
 Se stai già pensando di provare WHOOP, questo è il mio referral:
 https://join.whoop.com/FC2E68B1
 
-La pagina ufficiale Refer a Friend indica attualmente 1 mese gratis per il nuovo membro. Se il referral completa i requisiti, ricevo anch'io 1 mese di credito. WHOOP specifica che le promo non si cumulano, quindi controlla sempre il checkout finale.
+La pagina ufficiale Refer a Friend indica attualmente 1 mese gratis per il nuovo membro. Se il referral completa i requisiti, WHOOP può assegnarmi una ricompensa. WHOOP specifica che le promo non si cumulano, quindi controlla sempre il checkout finale.
 
 Guida:
 https://recovery-wearable-notes.netlify.app/it/
@@ -76,14 +76,14 @@ https://join.whoop.com/FC2E68B1
 Independent explanation of the referral terms:
 https://recovery-wearable-notes.netlify.app/
 
-Disclosure: if you join through my referral and it later qualifies under WHOOP's terms, I receive one month of membership credit too. WHOOP also offers a standard free trial and says promotions cannot be stacked, so always compare the final checkout.
+Disclosure: if you join through my referral and it later qualifies under WHOOP's terms, I may receive a WHOOP referral reward. WHOOP also offers a standard free trial and says promotions cannot be stacked, so always compare the final checkout.
 
 ## Pinned YouTube comment
 
 WHOOP referral for anyone already planning to join:
 https://join.whoop.com/FC2E68B1
 
-Current WHOOP terms: 1 free month for the referred member; I also receive 1 month if the referral qualifies. Check the final checkout because promos can change and don't stack.
+Current WHOOP terms: 1 free month for the referred member; I may receive a WHOOP referral reward if the referral qualifies. Check the final checkout because promos can change and don't stack.
 
 ## Short-form video hooks
 
