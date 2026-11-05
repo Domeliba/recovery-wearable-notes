@@ -3,9 +3,10 @@
 window.WHOOP_REFERRAL = {
   url: "https://join.whoop.com/FC2E68B1",
   code: "FC2E68B1",
-  lastChecked: "2026-10-05",
+  lastChecked: "2026-11-05",
   offer: "1 free month",
   offers: { en: "1 free month", it: "1 mese gratis" },
   ownerBenefit: "I may receive a WHOOP referral reward if your referral becomes eligible"
 };
+
 

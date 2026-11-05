@@ -1,6 +1,6 @@
 # WHOOP referral project — operational record
 
-Last reviewed: 2026-11-01. Read this record before making changes or posting.
+Last reviewed: 2026-11-05. Read this record before making changes or posting.
 
 ## Existing production
 
@@ -342,3 +342,15 @@ The official program describes one free month for the new member and one members
 - At https://referralcodeshare.com/ the free public member-referral form recognized WHOOP. A single confirmation request was sent for https://join.whoop.com/FC2E68B1 with https://www.whoop.com/ as the program site. The visible result confirmed that a private edit/confirmation email was sent. No code was published by this step and no fee was incurred.
 - Completion requires opening the private emailed link, entering a display name and accurate new-member reward, then publishing. The site also checks the referral program before the code goes live. The private link controls later editing; keep it, email addresses and any authentication data out of this repository. Do not send another request or post a duplicate while confirmation is pending.
 - Prepared reward: `1 free membership month for eligible new WHOOP members`. Explain that the official invitation must be opened before signup, checkout terms govern eligibility, promotions do not stack and the sharer may receive a WHOOP reward if eligible. Do not promise a fixed reward to this account, invent an expiry, purchase boosts or claim public placement until verified.
+
+
+## Conversion content release — 2026-11-05
+
+- User authorized autonomous improvements to the existing project, with no paid activity or spam. Existing site URL, referral identity, titles, canonicals and Google verification are preserved.
+- Rechecked official Refer a Friend and Free Trial FAQ documentation. Updated homepage/config offer verification dates, condensed the repeated referral-versus-trial explanation, and changed step three to explain the purchaser’s renewal checks. No extra stacked trial month is promised.
+- Added English and Italian night-shift guides with author attribution, existing personal observations about nap detection, a practical reading checklist and linked official documentation. No private health metrics, personal account outcomes, precise work schedule, or fabricated test results are published. New pages are linked from the homepages, reciprocally linked by language, and added to sitemap and canonical redirects.
+- The live audit before release confirmed the older October homepages and 404 responses for both trial-to-Peak guides. The current browser is signed out of Netlify and ReferralCodes; their account state cannot be changed without authentication. No account plan or actual Netlify failure reason is inferred.
+- The previous Referral Code Share confirmation has expired. Public publication is unconfirmed. Profile bio and permitted-channel distribution copy are prepared in CONTENT_PACK.md, not claimed as posted. Do not automate Reddit activity or repost the existing submissions.
+- Release validation passed: six canonical HTML pages; reciprocal English/Italian alternates; JSON-LD parsing; internal links, assets, referral destinations, sitemap coverage, JavaScript syntax and workflow shell syntax. Browser preview verified the Italian homepage, new-guide navigation, desktop layout with no horizontal overflow and the copy-button fallback on HTTP. Automatic clipboard success was not established in that non-HTTPS preview. Publication remains unverified until production contains the release marker. No paid analytics, accounts, redirect wrappers or local-only traffic counters were introduced. Traffic, directory clicks, signup notices and awarded WHOOP credits remain separate.
+
+- IndexNow now verifies the expected content marker across all six live pages before submitting their URLs, and watches both new-guide paths. A successful source commit or workflow start must not be described as a published site or improved conversion rate.

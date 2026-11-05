@@ -1,6 +1,6 @@
 # Distribution pack — WHOOP referral FC2E68B1
 
-Updated: 2026-11-01
+Updated: 2026-11-05
 
 Referral link: https://join.whoop.com/FC2E68B1
 Landing page: https://recovery-wearable-notes.netlify.app/
@@ -117,3 +117,25 @@ CTA:
 - Referrals Buddy offers only 30 days free to new accounts, then £5/month to keep codes live. Do not treat it as a permanent free listing.
 - Doctor of Credit has closed its WHOOP referral comments.
 - Scheduled monitoring must not automatically post to communities that prohibit bots or automation.
+
+
+## ReferralCodes profile update — prepared, not published
+
+Bio:
+I use WHOOP for sleep and recovery tracking around night shifts and strength training. I share practical notes and clear referral terms. I may receive a WHOOP reward if your referral qualifies.
+
+Keep the existing reward line and direct WHOOP invitation. Edit the existing listing; do not delete or re-submit it for freshness. The account must be signed in to change the profile.
+
+## New original guide — release must be verified before distribution
+
+English: https://recovery-wearable-notes.netlify.app/whoop-night-shifts/
+Italian: https://recovery-wearable-notes.netlify.app/it/whoop-turni-notturni/
+
+Share summary (owned channels or communities that expressly permit self-promotion only):
+I use WHOOP around night shifts and strength training. I wrote down practical checks for interpreting sleep scores, including a daytime sleep session labelled as a nap and how WHOOP describes sleep consistency. Personal observations are separate from the manufacturer’s documentation. The guide contains my referral link, which may reward me if an eligible referral completes.
+
+This summary is prepared copy, not a published social post. It contains no claim of laboratory validation or a measured improvement in health or training. Do not insert the site link into r/referralcodes or automate posting there. No private sleep metrics or account outcomes belong in public distribution material.
+
+## Referral Code Share status correction — 2026-11-05
+
+The earlier confirmation link expired on November 4, 2026. Public publication is not confirmed. Do not describe the listing as live or generate duplicates. Resume only the same program/email submission through the service’s supported renewal flow; private edit links must never be committed.

@@ -8,6 +8,8 @@ on:
       - "it/index.html"
       - "whoop-trial-to-peak/**"
       - "it/prova-whoop-peak/**"
+      - "whoop-night-shifts/**"
+      - "it/whoop-turni-notturni/**"
       - "sitemap.xml"
       - "robots.txt"
       - "assets/**"
@@ -21,23 +23,32 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - name: Wait for the public pages and IndexNow key
+      - name: Verify the published content release before notifying search engines
         shell: bash
         run: |
           set -euo pipefail
           BASE="https://recovery-wearable-notes.netlify.app"
           KEY="a4d1c9f43b8e4a83a567cb0192e5d7f1"
-          for i in {1..18}; do
-            if curl -fsS --max-time 15 "$BASE/$KEY.txt" | grep -q "$KEY" &&
-               curl -fsS --max-time 15 "$BASE/whoop-trial-to-peak/" > /dev/null &&
-               curl -fsS --max-time 15 "$BASE/it/prova-whoop-peak/" > /dev/null; then
-              echo "Guide pages and IndexNow key are live."
+          RELEASE="2026-11-05-referral-content"
+          for i in {1..12}; do
+            READY=true
+            if ! curl -fsS --max-time 15 "$BASE/$KEY.txt" | grep -q "$KEY"; then
+              READY=false
+            fi
+            for PAGE_PATH in / /it/ /whoop-trial-to-peak/ /it/prova-whoop-peak/ /whoop-night-shifts/ /it/whoop-turni-notturni/; do
+              if ! curl -fsS --max-time 15 "$BASE$PAGE_PATH" | grep -q "content-version.*$RELEASE"; then
+                READY=false
+                break
+              fi
+            done
+            if [ "$READY" = true ]; then
+              echo "All six pages contain the expected release."
               exit 0
             fi
-            echo "Waiting for Netlify to publish the guides..."
+            echo "Waiting for Netlify to publish the expected content release..."
             sleep 10
           done
-          echo "::error::Guide deployment is not verified. No IndexNow request sent."
+          echo "::error::Production content does not match this release. No IndexNow request sent."
           exit 1
 
       - name: Notify IndexNow about the canonical pages
@@ -46,7 +57,7 @@ jobs:
           set -euo pipefail
           BASE="https://recovery-wearable-notes.netlify.app"
           KEY="a4d1c9f43b8e4a83a567cb0192e5d7f1"
-          for PATHNAME in / /it/ /whoop-trial-to-peak/ /it/prova-whoop-peak/; do
+          for PATHNAME in / /it/ /whoop-trial-to-peak/ /it/prova-whoop-peak/ /whoop-night-shifts/ /it/whoop-turni-notturni/; do
             URL="$BASE$PATHNAME"
             HTTP_STATUS=$(curl -sS --max-time 30 --get "https://api.indexnow.org/indexnow" \
               --data-urlencode "url=$URL" --data-urlencode "key=$KEY" \
@@ -56,3 +67,4 @@ jobs:
               *) echo "::error::IndexNow rejected $URL (HTTP $HTTP_STATUS)"; exit 1 ;;
             esac
           done
+
