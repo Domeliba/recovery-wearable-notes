@@ -126,7 +126,7 @@ I use WHOOP for sleep and recovery tracking around night shifts and strength tra
 
 Keep the existing reward line and direct WHOOP invitation. Edit the existing listing; do not delete or re-submit it for freshness. The account must be signed in to change the profile.
 
-## New original guide — release must be verified before distribution
+## New original guide — verified live on 2026-11-05
 
 English: https://recovery-wearable-notes.netlify.app/whoop-night-shifts/
 Italian: https://recovery-wearable-notes.netlify.app/it/whoop-turni-notturni/

@@ -32,11 +32,15 @@ jobs:
           RELEASE="2026-11-05-referral-content"
           for i in {1..12}; do
             READY=true
-            if ! curl -fsS --max-time 15 "$BASE/$KEY.txt" | grep -q "$KEY"; then
+            if ! KEY_CONTENT=$(curl -fsS --max-time 15 "$BASE/$KEY.txt") || [[ "$KEY_CONTENT" != "$KEY" ]]; then
               READY=false
             fi
             for PAGE_PATH in / /it/ /whoop-trial-to-peak/ /it/prova-whoop-peak/ /whoop-night-shifts/ /it/whoop-turni-notturni/; do
-              if ! curl -fsS --max-time 15 "$BASE$PAGE_PATH" | grep -q "content-version.*$RELEASE"; then
+              if ! PAGE_HTML=$(curl -fsS --max-time 15 "$BASE$PAGE_PATH"); then
+                READY=false
+                break
+              fi
+              if [[ "$PAGE_HTML" != *"content-version"*"$RELEASE"* ]]; then
                 READY=false
                 break
               fi
